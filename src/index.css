@@ -1,0 +1,100 @@
+/* Reset de estilos para garantizar la consistencia entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establece un tamaño de fuente base y tipo de letra */
+html {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Ajuste del tamaño de fuente en pantallas más pequeñas */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Establece un margen y relleno mínimo para el cuerpo del documento */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Añade un fondo de color o imagen de fondo al cuerpo de la página */
+body {
+  background-color: #f8f8f8;
+}
+
+/* Ajuste del ancho máximo del contenido y centrado en la página */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo de encabezado global */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333; /* Color de texto más oscuro */
+}
+
+/* Establece márgenes y espaciado en elementos en línea */
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  color: #555; /* Color de texto un poco más oscuro */
+}
+
+/* Estilos de botones globales */
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff; /* Azul brillante */
+  color: #fff; /* Texto blanco */
+  transition: background-color 0.3s;
+}
+
+/* Añade un efecto de sombra y cambia el color al pasar el mouse sobre los botones */
+button:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #0056b3; /* Azul más oscuro */
+}
+
+/* Añade márgenes y espaciado vertical en elementos */
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Añade relleno a elementos */
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Clase para hacer que un elemento se oculte en pantallas pequeñas */
+.d-none {
+  display: none;
+}
+
+/* Clase para hacer que un elemento se muestre en pantallas pequeñas */
+.d-block {
+  display: block;
+}
+
+/* Estilos para imágenes responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.alert.alert-danger {
+  background-color: #d9534f;
+  color: white;
+}
